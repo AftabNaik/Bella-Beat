@@ -1,0 +1,16 @@
+n_day_of_week = [0,1,2,3,4,5,6]
+
+fig, axes = plt.subplots(nrows=2, ncols=2,figsize=(11,15),dpi=70)
+
+sns.scatterplot(data=df,x='calories',y='sedentary_minutes',hue='activity_level',ax=axes[0,0],legend=False)
+
+sns.scatterplot(data=df,x='calories',y='lightly_active_minutes',hue='activity_level',ax=axes[0,1],legend=False)
+
+sns.scatterplot(data=df,x='calories',y='fairly_active_minutes',hue='activity_level',ax=axes[1,0],legend=False)
+
+sns.scatterplot(data=df,x='calories',y='very_active_minutes',hue='activity_level',ax=axes[1,1])
+
+
+plt.legend(title='Activity level',title_fontsize=20,bbox_to_anchor=(1.8,2.2),fontsize=18,frameon=True,scatterpoints=1)
+fig.suptitle('Correlation Between activity level minutes and calories',x=0.5,y=0.92,fontsize=24)
+plt.show()
