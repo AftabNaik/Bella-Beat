@@ -510,6 +510,8 @@ plt.legend()
 plt.show()
 ```
 
+<img width="782" height="545" alt="image" src="https://github.com/user-attachments/assets/aab6c510-a157-43f6-b9f9-623aaaaa90ae" />
+
 The results show that Monday, Tuesday and Saturday are the days where the users were more physically active and above the average numbert of steps overall. Wednesday, Thursday, and Friday are below the average but the three fell into the same area. Sunday is the least active of all the weekdays.
 
 With this information we can interpret that users tend to be more physically active during the firsts days of the week and during saturdays, giving us a hint of the activities they may do.
@@ -534,6 +536,9 @@ plt.tight_layout()
 plt.show()
 ```
 
+<img width="619" height="470" alt="image" src="https://github.com/user-attachments/assets/a8170f21-bc6c-4e13-bc71-aeea27e3ec1d" />
+
+
 This pie chart shows that the users are in a sedentary state of activity most of the time, a sixth of the time doing light activity and only 2% of the time being active doing proper excercise.
 
 Correlation Between activity level minutes and calories
@@ -556,11 +561,26 @@ fig.suptitle('Correlation Between activity level minutes and calories',x=0.5,y=0
 plt.show()
 ```
 
+<img width="865" height="895" alt="image" src="https://github.com/user-attachments/assets/db5f0113-58c0-4f26-9425-3755cb976d47" />
+
+
 ## 6. Act
 After analyzing FitBit Fitness Tracker Data, we have found some insights that would help influence Bellabeat marketing strategy
 
 A multipurpose device
+
 Bellabeat can let know users, that their products are not only meant for sports, or excersice related activities As the data show, many users spend more time wearing the tracking device on weekends than on weekdays, this could mean that they relate the product just to sports or for only the usual walking to the park on sundays Bellabeat can show that their products are meant to acompany them wherever they go for any daily activities, such as work And help them track information to improve overall fitness and health This will encourage women from diverse demographic features and backgrounds to use Bellabeat's product meant for all women who care about overall health
 
 Rewards and reminds
+
 Bellabeat can integrate functions within the bellabeat app or other products, such as rewards or incentives, and reminds to encourage their users to hit certain marks These marks could be achieving the minimum amount of 7 500 steps per day, certain calorie burning for people who want to lose weight, or the 8 hour sleep pattern Certain rewards could be showing a leaderboard of top users who have reached and maintained the minimum steps a day for longer, virtual medals or prizes, such as discounts or offers For the reminds part, Bellabeat could send notifications to their users when they are lagging behind in such goals, and also it could offer recomendations to their users to help them with their sleep, or achieving their goals
+
+Marketing recommendations to expand globally:
+
+🔢 Obtain more data for an accurate analysis, encouraging users to use a wifi-connected scale instead of manual weight entries.
+
+🚲 Educational healthy style campaign encourages users to have short active exercises during the week, longer during the weekends, especially on Sunday where we see the lowest steps and most sedentary minutes.
+
+🎁 Educational healthy style campaign can pair with a point-award incentive system. Users completing the whole week's exercise will receive Bellabeat points on products/memberships.
+
+🏃‍♂️ The product, such as Leaf wellness tracker, can beat or vibrate after a prolonged period of sedentary minutes, signaling the user it's time to get active! Similarly, it can also remind the user it's time to sleep after sensing a prolonged awake time in bed.
