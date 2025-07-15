@@ -362,8 +362,6 @@ Normal use: between 8 and 16 hours of use per day.
 High use: more than 16 hours of use per day.
 For this dataset, I'll only begin by creating the category 'activity_level'. I will create the other category when I analize a dataset which has data stored in an hourly basis
 
-# I first group the data by the id
-
 ```id_grp = df.groupby(['id'])
 ```
 
