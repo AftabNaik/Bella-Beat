@@ -195,7 +195,7 @@ Calories: Calories burned that specific day
 
 Once having a look a the columns and the data, we can star the proccess of cleaning
 
-**Cleaning the data**
+## **Cleaning the data**
 
 Checking Data types
 First we have to check if the data types align with the content and purpose of the data in each column, we can use the function .dtypes for that
