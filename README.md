@@ -427,6 +427,7 @@ print(df['id'].value_counts())
 
 **Output:**
 
+<img width="815" height="552" alt="image" src="https://github.com/user-attachments/assets/f61bc0e3-16d9-44b2-97e2-fce3a7fc981f" />
 
 
 As we can see, there are 33 unique id's or users, and most appear 31 times throughout the dataset, some less than that
